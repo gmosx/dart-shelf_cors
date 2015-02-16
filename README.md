@@ -1,6 +1,6 @@
-# Package shelf_cors
+# Add CORS Headers Middleware
 
-A middleware to add CORS headers to shelf responses. Also handles
+A Shelf middleware to add CORS headers to shelf responses. Also handles
 preflight requests.
 
 ## Usage
