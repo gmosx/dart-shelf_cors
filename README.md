@@ -25,4 +25,4 @@ A simple usage example:
 
 ## Features and bugs
 
-Please file feature requests and bugs at the [issue tracker][tracker].
+Please file feature requests and bugs at the [issue tracker](https://github.com/gmosx/dart-shelf_cors/issues).

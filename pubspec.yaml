@@ -4,6 +4,6 @@ author: George Moschovitis <george.moschovitis@gmail.com>
 description: Middleware to add CORS headers to shelf responses.
 homepage: https://github.com/gmosx/dart-shelf_cors
 dependencies:
-  shelf: any
+  shelf: ">=0.5.6 <0.6.0"
 dev_dependencies:
   unittest: any
