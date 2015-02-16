@@ -2,9 +2,9 @@ library shelf.middleware.cors;
 
 import 'package:shelf/shelf.dart';
 
-/// Middleware which adds [CORS headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
+/// Creates middleware which adds [CORS headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
 /// to shelf responses. Also handles preflight (OPTIONS) requests.
-Middleware addCorsHeadersMiddleware({Map<String, String> corsHeaders}) {
+Middleware addCorsHeaders({Map<String, String> corsHeaders}) {
   if (corsHeaders == null) {
     // By default allow access from everywhere.
     corsHeaders = {'Access-Control-Allow-Origin': '*'};
