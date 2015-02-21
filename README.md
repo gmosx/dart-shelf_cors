@@ -16,7 +16,7 @@ A simple usage example:
     }
     
     var handler = const shelf.Pipeline()
-        .addMiddleware(shelf_cors.addCorsHeaders())
+        .addMiddleware(shelf_cors.createCorsHeadersMiddleware())
         .addHandler(handleAll);
   
     shelf_io.serve(handler, InternetAddress.ANY_IP_V4, port).then((server) {
