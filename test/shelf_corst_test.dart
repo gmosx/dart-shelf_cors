@@ -1,6 +1,6 @@
 library flare.html_optimizer.test;
 
-import 'package:unittest/unittest.dart';
+import 'package:test/test.dart';
 import 'package:shelf/shelf.dart' as shelf;
 
 import 'package:shelf_cors/shelf_cors.dart' as shelf_cors;

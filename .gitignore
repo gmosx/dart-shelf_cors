@@ -6,3 +6,5 @@ packages
 .*.un~
 .settings/
 .project
+.idea/*
+.packages
